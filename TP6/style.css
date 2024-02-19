@@ -1,0 +1,129 @@
+body{
+    overflow-x: hidden;
+}
+
+.GT{
+    font-size: 30px;
+    background-color: rgb(160, 216, 235);
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    display: flex;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.PG{
+    background-image: url(image_1.jpg);
+    height: 450px;
+    width: 100%;
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 22px;
+    width: 45p%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.497);
+    position: relative;
+}
+
+.PG h1{
+      position: absolute;
+      margin-top: 100px;
+      margin-left: 80px;
+}
+.IMG1{
+    margin-top: 40px;
+    position: absolute;
+    left: -100px;
+}
+h2{
+    font-size: 22px;
+    font-weight: normal;
+    width: 55%;
+    padding: 30px;
+    background-color: rgb(105, 154, 189);
+    position: relative;
+}
+.PGG h2{
+    position: absolute;
+      margin-top: 40px;
+      margin-left: 300px;
+}
+.barre {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.barre hr{
+    flex: 20%;
+}
+
+.barre p{
+    background-color: black;
+    width: 400px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.barre{
+    margin-top: 300px;
+}
+
+.qualité{
+font-size: 20px;
+border: solid 3px maroon;
+padding: 10px;
+margin-left: 70%;
+width: 20%;
+margin-right: 10px;
+}
+
+.PPP{
+
+    position: relative;
+    width: 100%;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 15px;
+}
+h3{
+    margin-left: 80px;
+    display: flex;
+    margin-bottom: 5px;
+    left: 100px;
+    
+}
+.DI img{
+    margin-top: 40px;
+    position: absolute;
+    left: 1400px;
+}
+
+
+@media screen and (max-width:420px) {
+    .PG{
+        background-image: none;
+    }
+    .IMG1{
+        display: none;
+    }
+    .DI{
+        display: none;
+    }
+}
+@media screen and(min-width:421px) and (max-width:720px) {
+
+    .PG{
+        background-image: none;
+    }
+}
